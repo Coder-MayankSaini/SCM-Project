@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medicine - Fretio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         * {
             margin: 0;
@@ -48,7 +48,7 @@
 
         .nav-links {
             display: flex;
-            gap: 1.5rem;
+            gap: 5rem;
         }
 
         .nav-links a {
@@ -173,6 +173,17 @@
             font-size: 1.2rem;
             font-weight: bold;
         }
+        .profile-btn {
+            background: none;
+            border: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: white;
+            transition: transform 0.3s ease, color 0.3s ease;
+            padding: 10px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
 
         .product-price::before {
             content: '₹';
@@ -213,7 +224,8 @@
         <div class="nav-icons">
             <i class="fas fa-search"></i>
             <i class="fas fa-shopping-cart"></i>
-            <div class="profile-icon">MS</div>
+            <div class="profile-menu">
+                <button class="profile-btn">&#x1F464;</button>
         </div>
     </nav>
 
