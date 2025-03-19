@@ -6,6 +6,10 @@
     <title>Medicine - Fretio</title>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Add jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Add AOS CSS for scrolling effects -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
     <style>
         * {
             margin: 0;
@@ -199,7 +203,7 @@
 </head>
 <body>
     
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-down">
         <div class="logo">
             <img src="kh2ZWeP.png" alt="Logo">
         </div>
@@ -217,38 +221,41 @@
         </div>
     </nav>
 
-    <section class="title-section">
+    <section class="title-section" data-aos="fade-up">
         <h1 class="title">Clothes</h1>
         <div class="breadcrumb">Home / Collections / Medicine</div>
     </section>
 
-    <div class="products-grid">
+    <div class="products-grid" data-aos="fade-up" data-aos-delay="300">
         <div class="product-card">
             <img src="TSHIRT-WHITE.png" alt="Paracetamol" class="product-image">
             <h3 class="product-name">White T-Shirt (X-Large)</h3>
             <div class="product-price">529</div>
         </div>
 
-
-        <div class="product-card">
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="100">
             <img src="cloth 4.png" alt="Crocin" class="product-image">
             <h3 class="product-name">Denim Shirt (M)</h3>
             <div class="product-price">67</div>
         </div>
 
-
-        <div class="product-card">
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="200">
             <img src="cloth 5.png" alt="Augmentin" class="product-image">
             <h3 class="product-name">Hoodie (XX-Large)</h3>
             <div class="product-price">161</div>
         </div>
 
-        <div class="product-card">
+        <div class="product-card" data-aos="zoom-in" data-aos-delay="300">
             <img src="shoes 1.png" alt="Sporlac" class="product-image">
             <h3 class="product-name">RedTape Shoes</h3>
             <div class="product-price">151</div>
         </div>
     </div>
 
+    <!-- Add AOS JavaScript library and initialize it -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
