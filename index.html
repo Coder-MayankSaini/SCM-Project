@@ -6,10 +6,15 @@
     <title>Fretio - Student Marketplace</title>
     <link rel="stylesheet" href="./home/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-<body>
+<body id="body"> 
     <header>
-        <div class="logo">
+        <div class="logo" >
             <img src="./home/logo.png" alt="Logo">
         </div>
         <nav>
@@ -68,7 +73,7 @@
                 <span class="star-left">✨</span>
                 <h1>FEATURED PRODUCTS</h1>
                 <span class="star-right">✨</span>
-                <div class="top-seller">TOP SELLER!</div>
+                <div class="top-seller" style="cursor: pointer;">TOP SELLER!</div>
             </div>
 
             <div class="products-grid">
@@ -108,7 +113,9 @@
     <footer class="footer">
         <div class="footer-content">
             <div>
-                <img src="./home/logo.png" alt="Fretio Logo" class="   footer-logo">
+                <a href="#body">
+                <img src="./home/logo.png" alt="Fretio Logo" class="footer-logo" style="cursor: pointer;">
+                </a>
             </div>
             <div class="footer-links">
                 <a href="./otherpages/contact.html">Contact us</a>
