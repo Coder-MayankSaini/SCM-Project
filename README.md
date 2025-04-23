@@ -17,7 +17,7 @@ Fretio is a platform designed to help hostlers share rent and buy/sell goods, ma
 - User Authentication (Sign Up / Login) 
 - Marketplace for Buying/Selling Goods  
 - Chat System  
-- Notifications
+- Real time Notifications
 
 ## 🖌️ Design 
 ```bash
